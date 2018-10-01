@@ -1,0 +1,23 @@
+1. Đăng ký tài khoản git-hub
+2. Vào trang git-scm.com tải bản gib cho local
+3. Tại gibhub.com tạo project(Repository)
+4. Tạo nhân bản về máy
+- Tạo thư mục tại local
+- Nhấn chuột phải chọn git bat here
+- Lệnh gib nhân bản: git clone
+- Lên project chọn clone for download / use SSH / nhất chuột chọn copy
+pase và lệnh
+5. Tạo file mới tại local đẩy lên Server
+- Tạo file mới
+- Nhấn chuột phải chọn Gib Bat Here
+- Đánh lệnh: git status
+- Đánh git add * (đánh dấu theo dõi file)
+- Thêm vào kho chứa local: git conmit - m "chý thích thay đổi"
+(tắt git conmit -a - m "chú thít")
+- Đẩy Lên Server: git push
+6. Khôi phục từ về mốc thời điểm ở quá khứ
+
+- git log (Lấy id lần thay đổi) sau đó nhấn ctr +c
+- Lệnh khôi phục: git revert -pate id lần cần thay đổi (ấn ESC sau đó ấn shift +: q)
+7. Đồng bộ file từ Server về local
+- Lệnh: git pull
